@@ -1,0 +1,276 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f5f5f5;
+    font-family: sans-serif;
+}
+
+.unverifiedHead {
+    margin-top: 50px;
+    width: 1200px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.eventText {
+    color: #3d3c45;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.adminText {
+    color: #3d3c45;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    margin-top: -50px;
+    border-top: 1px solid #b3b2b2;
+    border-bottom: 1px solid #f5f5f5;
+    background-color: white;
+}
+
+.adminsqr {
+    width: 12px;
+    height: 32px;
+    background-color: #e46161;
+    margin-right: 15px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.post {
+    width: 1200px;
+    height: fit-content;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.userSection {
+    width: 220px;
+    height: max-content;
+    display: block;
+    text-align: center;
+}
+
+.authortext {
+    font-size: 20px;
+}
+
+.userSection img {
+    width: 100%;
+    height: 220px;
+}
+
+.postSection {
+    width: 980px;
+    background-color: rgb(250, 250, 250);
+}
+
+.postSection h2 {
+    text-align: center;
+    padding-top: 20px;
+    margin-top: auto;
+    padding-bottom: 20px;
+    background-color: white;
+    border-bottom: 1px solid rgb(228, 228, 228);
+}
+
+.postimage {
+    width: 350px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    border: none;
+}
+
+.postSection p {
+    padding-left: 30px;
+}
+
+.statuswrap {
+    background-color: #b3b2b2;
+    width: 170px;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adminwrap {
+    background-color: #e46161;
+    width: 170px;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.statustext {
+    color: white;
+    font-size: 16px;
+}
+
+.desc {
+    padding-top: 50px;
+    padding-right: 30px;
+    word-break: break-all;
+    padding-bottom: 50px;
+}
+
+.adminBtn {
+    display: block;
+    width: 120px;
+    height: 40px;
+    margin-top: 30px;
+    background: linear-gradient(90deg, #95C290 0%, #95C29E 25%, #95C290 70%);
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    font-weight: bolder;
+    border-radius: 3px;
+}
+
+.adminBtn:hover {
+    background: linear-gradient(90deg, #8db888 0%, #8fb997 25%, #8db888 70%);
+}
+
+.selecWrap {
+    display: flex;
+    justify-content: end;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.adminremove {
+    display: block;
+    width: 120px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 30px;
+    background: #e46161;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    font-weight: bolder;
+    border-radius: 3px;
+}
+
+.adminVerify {
+    display: block;
+    width: 120px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 30px;
+    background: linear-gradient(90deg, #95C290 0%, #95C29E 25%, #95C290 70%);
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    font-weight: bolder;
+    border-radius: 3px;
+}
+
+.adminUnverify {
+    display: block;
+    width: 180px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 30px;
+    background: #e46161;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    font-weight: bolder;
+    border-radius: 3px;
+}
+
+.adminUnban {
+    display: block;
+    width: 180px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 30px;
+    background: linear-gradient(90deg, #95C290 0%, #95C29E 25%, #95C290 70%);
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    font-weight: bolder;
+    border-radius: 3px;
+}
+
+.adminUnban:hover {
+    background: linear-gradient(90deg, #8db888 0%, #8fb997 25%, #8db888 70%);
+}
+
+.adminUnverify:hover {
+    background: #d45a5a;
+}
+
+.adminVerify:hover {
+    background: linear-gradient(90deg, #8db888 0%, #8fb997 25%, #8db888 70%);
+}
+
+.adminremove:hover {
+    background: #d45a5a;
+}
+
+.adminBtnWrap {
+    padding-bottom: 30px;
+}
+
+.selecWrapNone {
+    display: none;
+}
+
+.postWrap {
+    width: 1200px;
+    height: fit-content;
+    background-color: rgb(250, 250, 250);
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.admincategory {
+    display: block;
+    width: 120px;
+    height: 35px;
+    margin-top: 0px;
+    background: linear-gradient(90deg, #95C290 0%, #95C29E 25%, #95C290 70%);
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    font-weight: bolder;
+    border-radius: 3px;
+}
+
+.categorywrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 380px;
+}
+
+.star {
+    height: 32px;
+    width: 32px;
+    margin-left: 900px;
+    cursor: pointer;
+}

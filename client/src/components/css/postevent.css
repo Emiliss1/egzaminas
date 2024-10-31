@@ -1,0 +1,60 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f5f5f5;
+    font-family: sans-serif;
+}
+
+.Eventpost {
+    margin-top: 50px;
+    width: 1000px;
+    height: 950px;
+    background-color: rgb(252, 252, 252);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+.postLabel {
+    padding-left: 45px;
+    padding-top: 20px;
+}
+
+.postInput {
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.postSelect {
+    width: 180px;
+    height: 35px;
+    margin-left: 45px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.postDescription {
+    width: 90%;
+    margin-left: 45px;
+    height: 200px;
+    resize: none;
+    font-size: 16px;
+}
+
+.postBtn {
+    display: block;
+    width: 150px;
+    height: 45px;
+    margin: auto;
+    margin-top: 30px;
+    background: linear-gradient(90deg, #95C290 0%, #95C29E 25%, #95C290 70%);
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    font-weight: bolder;
+    border-radius: 3px;
+}
